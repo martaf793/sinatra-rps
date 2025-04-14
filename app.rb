@@ -68,9 +68,9 @@ end
 #   # Check for invalid action right away.
 #   unless moves.include?(@our_play) or @our_play == "fire"
 #     @outcome = "lost, invalid action"
-#   else
+#   else  
 #     @computer_play = moves.sample
-
+    #RESTO DE IFS DENTRO 
 #     if @computer_play == @our_play
 #       @outcome = "tied"
 #     elsif @our_play == "fire"
